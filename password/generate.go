@@ -1,3 +1,5 @@
+// Package password provides a library for generating random
+// passwords using the crypto/rand package.
 package password
 
 import (
