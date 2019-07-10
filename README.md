@@ -1,5 +1,8 @@
 ## Golang Password Generation Library
 
+[![Build Status](https://travis-ci.com/szybia/go-password.svg?branch=master)](https://travis-ci.com/szybia/go-password)
+[![GoDoc](https://godoc.org/github.com/szybia/go-password?status.svg)](https://godoc.org/github.com/szybia/go-password)
+
 Performance-oriented library for the generation of random passwords.
 
 Inspired by Seth Vargos [go-password](https://github.com/sethvargo/go-password/) implementation.
