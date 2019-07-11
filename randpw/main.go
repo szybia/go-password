@@ -21,7 +21,7 @@ THE SOFTWARE.
 */
 package main
 
-import "randpw/cmd"
+import "github.com/szybia/go-password/randpw/cmd"
 
 func main() {
   cmd.Execute()
