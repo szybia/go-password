@@ -12,6 +12,11 @@ Inspired by Seth Vargos [go-password](https://github.com/sethvargo/go-password/)
 ```sh
 $ go get -u github.com/szybia/go-password/password
 ```
+* * *
+cli tool for generating passwords:
+```sh
+$ go get -u github.com/szybia/go-password/randpw
+```
 
 ### Usage
 
