@@ -1,13 +1,13 @@
 GOCMD=go
-GOTEST=$(GOCMD) test
+GOTEST=$(GOCMD) test -v
 GORACE=$(GOTEST) -race
 
 all: test race
 
 .PHONY: test
 test:
-	$(GOTEST) -v ./...
+	$(GOTEST) -cover ./...
 
 .PHONY: race
 race:
-	$(GORACE) -v ./...
+	$(GORACE) ./...
