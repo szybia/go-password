@@ -3,10 +3,12 @@ sudo: false
 language: go
 
 go:
-  - '1.x'
+  - 1.x
+  - master
 
 branches:
   only:
     - master
 
-script: make
+script:
+  - env GO111MODULE=on make
