@@ -6,10 +6,6 @@ go:
   - 1.x
   - master
 
-branches:
-  only:
-    - master
-
 script:
   - env GO111MODULE=on make
 

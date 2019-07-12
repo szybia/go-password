@@ -1,4 +1,11 @@
 project_name: randpw
+
+env:
+  - GO111MODULE=on
+before:
+  hooks:
+    - go mod download
+
 build:
   main: randpw/main.go
   binary: randpw
